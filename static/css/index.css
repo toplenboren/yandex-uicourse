@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('../fonts/YandexSansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Yandex Sans Display', sans-serif;
+}
+h1 {
+    font-weight: 100;
+    font-size: 72pt;
+}
+h2 {
+    font-weight: 100;
+    font-size: 42pt;
+}
+p {
+    font-weight: 100;
+    font-size: 14pt;
+}
+ul {
+    font-size: 14pt
+}
+.body__wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 6fr 4fr;
+}
+.body__container {
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.body__footer-text {
+    max-width: 65%;
+    margin-top: 40px;
+}
+.body__yandex-logo {
+    width: 128px;
+    height: auto;
+}
+.footer__container {
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer__yandex-image {
+    width: 100%;
+    height: auto;
+}
+@media (min-width: 768px) {
+    .body__container {
+        width: 750px;
+    }
+    .footer__container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .body__container {
+        width: 920px;
+    }
+    .footer__container {
+        width: 1000px;
+    }
+}

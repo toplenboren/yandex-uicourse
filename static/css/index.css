@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('YandexSansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Yandex Sans Display', sans-serif;
+}

@@ -1,4 +1,4 @@
 # yandex-uicourse
-A repo, made to host the layout tasks on yandex-uicourse
+A repo, made to host the layout init task on yandex-uicourse. 
 
-Hosted on github pages
+Hosted on https://toplenboren.github.io/yandex-uicourse/
